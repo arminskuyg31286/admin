@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!--
+    NOTE: Admin panel pages are intentionally excluded from indexing.
+    Only the login page (as the public entry point) is listed.
+    All admin routes are protected with noindex/nofollow meta tags.
+  -->
+
+  <url>
+    <loc>https://admin.radeonrp.ir/login</loc>
+    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

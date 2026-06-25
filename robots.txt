@@ -1,0 +1,16 @@
+User-agent: *
+
+# Block all admin/internal routes
+Disallow: /users/
+Disallow: /api/
+Disallow: /version/
+Disallow: /logout
+Disallow: /dashboard
+
+# Allow login page (public entry point)
+Allow: /login
+
+# Block everything else by default
+Disallow: /
+
+Sitemap: https://admin.radeonrp.ir/sitemap.xml
